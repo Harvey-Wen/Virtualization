@@ -1,0 +1,24 @@
+{
+  "name": "Virtualization Book",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit",	
+    "serve": "gitbook serve",	// 自己创建脚本，方便npm使用，npm run serve 启动服务
+    "build": "gitbook build",	// 自己创建脚本，方便npm使用，npm run build 构建
+    "update": "gitbook update",	// 自己创建脚本，方便npm使用，npm run update 更新服务
+    "pdf": "gitbook pdf",
+    "epub": "gitbook epub",
+    "mobi": "gitbook mobi"
+  },
+  "author": "Harvey Wen",
+  "license": "ISC",
+  "dependencies": {	// 这里的信息都是插件信息，安装的时候，会自动的添加到这个里面，插件的名字，和版本号
+    "gitbook-plugin-back-to-top-button": "^0.1.4",
+    "gitbook-plugin-code": "^0.1.0",
+    "gitbook-plugin-expandable-chapters": "^0.2.0",
+    "gitbook-plugin-search-pro": "^2.0.2",
+    "gitbook-summary": "^1.2.4"
+  }
+}
